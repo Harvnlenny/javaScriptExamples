@@ -14,6 +14,10 @@ while (isSunk == false) {
         guesses++;
         if (guess == location1 || guess == location2 || guess == location3) {
             hits++;
+            if (hits == 3) {
+                isSunk = true;
+                alert("You sank my battleship!");
+            }
         }
     }
 }
