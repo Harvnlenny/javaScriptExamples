@@ -12,3 +12,8 @@ var view = {
         cell.setAttribute("class", "miss");
     }
 };
+
+view.displayMiss("00");
+view.displayHit("34");
+
+view.displayMessage("Tap tap, is this thing on?");
